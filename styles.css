@@ -1,0 +1,47 @@
+#city {
+    margin-left: 1%;
+}
+#f ,#c{
+    margin: 2% 5px 2% 2%;
+}
+div {
+    display: flexbox;
+    text-align: center;
+}
+body {
+    font-family: Arial;
+    font-size: 0.95em;
+    color: #929292;
+}
+.form {
+    margin: 5%;
+}
+.report-container {
+    border: #E0E0E0 1px solid;
+    padding: 20px 40px 40px 40px;
+    border-radius: 2px;
+    width: 550px;
+    margin: 0 auto;
+    background-color: rgba(220, 220, 220, 0.192);
+}
+
+.weather-icon {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.weather-forecast {
+    color: #212121;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+span.min-temperature {
+    margin-left: 15px;
+    color: #929292;
+}
+
+.time {
+    line-height: 25px;
+}

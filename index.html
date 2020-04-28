@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forecast</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="form">
+            <label for="city">City: </label><input type="text" name="city" id="city" required><br>
+            <label for="degree">Degree: </label> <input type="radio" name="degree" id="F" value="F" required><label for="F">Fahrenheit</label>
+            <input type="radio" name="degree" id="C" value="C"><label for="C">Celsius</label><br>
+            <button id="search">Search</button> <button id="clear">clear</button>
+    </div>
+    
+    <div class="report-container">
+        <h2 id="heading2"></h2>
+        <div class="time" id="div1">
+        </div>
+        <div class="weather-forecast">
+        </div>
+        <div class="time" id="div2">
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
